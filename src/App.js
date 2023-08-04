@@ -9,6 +9,9 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact.js";
 import Footer from "./components/Footer";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import { disableReactDevTools } from '@fvilers/disable-react-devtools';
+
+disableReactDevTools();
 
 function App() {
   const [loading, setLoading] = useState(false);
