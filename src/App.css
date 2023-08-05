@@ -166,6 +166,7 @@ h1, h2, h3, button, h5, h4, p{
   margin-top: 30px;
   height: auto;
   justify-content: space-around;
+  background-color: white;
   
 }
 
@@ -200,10 +201,10 @@ h1, h2, h3, button, h5, h4, p{
 }
 .background{
   overflow: hidden;
-  width: 570x;
-  height: 500px;
-  right: 150px;
-  bottom: 200px;
+  width: 100vw;
+  height: 100vh;
+  right: 0;
+  top: 0;
   position:fixed;
   z-index: 1;
   filter: grayscale(1);
@@ -221,6 +222,9 @@ h1, h2, h3, button, h5, h4, p{
   font-size: 40px;
   margin: 0;
   font-family: 'Orbitron', sans-serif;
+}
+.info__wrapper span {
+  color: white;
 }
 
 .about__wrapper h1 {
@@ -274,6 +278,7 @@ h1, h2, h3, button, h5, h4, p{
   width: 450px;
   font-family: 'Orbitron', sans-serif;
   text-align: justify;
+  color: white;
 }
 
 .h1__about{
@@ -517,7 +522,6 @@ h1, h2, h3, button, h5, h4, p{
     flex-direction: column;
     width: auto;
     z-index: 2;
-    background-color: black;
     margin-left: 70px;
   
   }
@@ -531,7 +535,6 @@ h1, h2, h3, button, h5, h4, p{
     height: auto;
     justify-content: center;
     justify-content: flex-start;
-    background-color: black ;
   
   }
   .header__container {
@@ -543,7 +546,6 @@ h1, h2, h3, button, h5, h4, p{
     width: 100px;
     left: -20px;
     top: 0;
-    background-color: #000;
     align-items: flex-end;
     z-index: 3;
     
@@ -572,7 +574,6 @@ h1, h2, h3, button, h5, h4, p{
    .background{
     overflow: hidden;
     width: 600px;
-    height: auto;
     right:  0px;
     bottom: 400px;
     position:fixed;
@@ -582,7 +583,7 @@ h1, h2, h3, button, h5, h4, p{
   }
 
   .info__wrapper p {
-    font-size: 15px;
+    font-size: 10px;
     margin: 4;
     width: 250px;
     height: auto;
@@ -602,9 +603,9 @@ h1, h2, h3, button, h5, h4, p{
   }
 
   .info__wrapper h1{
-    width: 100px;
     display: flex;
     flex-direction: row;
+    font-size: 30px;
   }
 
   .exp__info__wrapper {
@@ -627,6 +628,13 @@ h1, h2, h3, button, h5, h4, p{
     width: 50vw;
     margin-top: 15px;
   }
+  .footer {
+    
+    font-size: 10px;
+  }
+  .info__wrapper span {
+   font-size: 15px;
+}
 }
 
 
