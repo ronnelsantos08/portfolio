@@ -5,7 +5,7 @@
   width: auto;
   height: auto;
   z-index: 2;
-  background-color: black;
+  background-color: white;
   align-items: center;
 }
 .contact_container h2 {
@@ -39,5 +39,5 @@
 }
 
 .contact_wrapper span {
-  color: white;
+  color: black;
 }

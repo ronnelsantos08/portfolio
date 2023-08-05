@@ -13,7 +13,6 @@ function Intro() {
   return (
     <>
       <div className="intro__wrapper" id="intro">
-        <img src="images/intro.png" className="background" alt="intro" />
         <div className="info__wrapper">
           <h1>Hey, I'm Ronnel</h1>
           <h2>

@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 h1, h2, h3, button, h5, h4, p{
   position: relative;
-  color: white;
+  color: black;
   background-color: transparent;
   z-index: 2;
   font-weight: 100;
@@ -73,7 +73,7 @@ h1, h2, h3, button, h5, h4, p{
   width: 100px;
   left: -20px;
   top: 0;
-  background-color: #000;
+  background-color: white;
   align-items: flex-end;
   z-index: 10;
 
@@ -94,6 +94,7 @@ h1, h2, h3, button, h5, h4, p{
   cursor: pointer;
   border-radius: 5px 0 0 0;
   transition: 0.5 ease;
+  background-color: white;
   
 }
 
@@ -254,7 +255,7 @@ h1, h2, h3, button, h5, h4, p{
   height: auto;
   width: 94vw;
   z-index: 2;
-  background-color: black;
+  background-color: white;
   margin-left: 70px;
 
 }
@@ -322,7 +323,7 @@ h1, h2, h3, button, h5, h4, p{
   height: 10vh;
   margin-left: 5%;
   width: 94vw;
-  background-color: #000;
+  background-color: white;
   
 }
 
@@ -392,7 +393,7 @@ h1, h2, h3, button, h5, h4, p{
   flex-direction: column;
   width: auto;
   height: auto;
-  background-color: #000;
+  background-color: white;
   height: auto;
   z-index: 2;
   margin-left: 70px;
@@ -407,6 +408,7 @@ h1, h2, h3, button, h5, h4, p{
   width: auto;
   height: auto;
   margin-left: 10%;
+  background-color: white;
 }
 
 
@@ -454,7 +456,7 @@ h1, h2, h3, button, h5, h4, p{
 
 .project__items {
   margin: 40px;
-  background-color: #3D3C3A;
+  background-color: white;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   border-radius: 3%;
   width: auto;
