@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgb(68, 68, 68);
 }
 
 h1,
@@ -74,7 +74,7 @@ p {
   position: fixed;
   flex-direction: column;
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100px;
   left: -20px;
   top: 0;
@@ -166,8 +166,6 @@ p {
   display: flex;
   position: relative;
   border-top: 1px solid Gray;
-  width: 100vw;
-  margin-top: 30px;
   height: auto;
   justify-content: space-around;
   background-color: white;
@@ -236,7 +234,7 @@ p {
 #about__info {
   font-size: 20px !important;
   margin-left: 3%;
-  width: 37vw;
+  width: 100%;
   font-size: 17px;
   height: auto;
   font-family: "Crete Round", serif;
@@ -248,7 +246,6 @@ p {
   position: relative;
   flex-direction: row;
   height: auto;
-  width: 94vw;
   z-index: 2;
   background-color: white;
   margin-left: 70px;
@@ -277,14 +274,6 @@ p {
   display: flex;
   margin-left: 11%;
   width: 75vw;
-}
-
-.h1__about:after {
-  content: "";
-  flex: 1 1;
-  color: black;
-  border-bottom: 1px solid;
-  margin: auto;
 }
 
 .about__skills {
@@ -389,16 +378,8 @@ p {
   display: flex;
   width: auto;
   height: auto;
-  margin-left: 10%;
+  margin-left: 5%;
   background-color: white;
-}
-
-.h1__exp:after {
-  content: "";
-  flex: 1 1;
-  color: black;
-  border-bottom: 1px solid;
-  margin: auto;
 }
 
 .exp__info__wrapper {
@@ -494,6 +475,10 @@ p {
     z-index: 2;
     margin-left: 70px;
   }
+  #about__info {
+    font-size: 10px !important;
+    width: 150%;
+  }
 
   .about__skills {
     position: relative;
@@ -538,10 +523,10 @@ p {
 
   .background {
     overflow: hidden;
-    width: 600px;
     right: 0px;
     bottom: 400px;
     position: fixed;
+    height: 400px;
     z-index: 1;
     filter: grayscale(1);
     transition: 1s ease;

@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div className="exp__container" id="projects">
       <div className="exp__wrapper">
-        <h1 className="h1__exp">Projects</h1>
+        <h1 className="h1__exp">Projects.</h1>
         <div className="project__info">
           <div className="project__items">
             <div className="project__img">

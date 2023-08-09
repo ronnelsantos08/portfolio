@@ -33,8 +33,8 @@ function About() {
           <p id="about__info">
             I enjoy creating Web Application and accomplishing projects together
             with highly skilled team to be able to learn more in the process.I'm
-            innovative and equipped with knowledge in programming. Proficient in
-            writing code and debugging system. 
+            innovative and equipped with knowledge in programming. Proficient in
+            writing code and debugging system.
           </p>
         </div>
         <div className="about__skills">
