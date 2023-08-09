@@ -29,7 +29,7 @@ function Projects() {
           <div className="project__items">
             <div className="project__img">
               <a
-                href="https://rscodecraft.com/"
+                href="https://thejcstudios.com/"
                 target="_blank"
                 rel="noreferrer"
               >
